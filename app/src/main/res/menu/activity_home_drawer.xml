@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dining_room"
+            android:icon="@drawable/drawingroomicon"
+            android:title="Drawing Room" />
+        <item
+            android:id="@+id/bed_room"
+            android:icon="@drawable/bedroomicon"
+            android:title="Bed Room" />
+        <item
+            android:id="@+id/kitchen_room"
+            android:icon="@drawable/kitchenroomicon"
+            android:title="Kitchen Room" />
+        <item
+            android:id="@+id/wash_room"
+            android:icon="@drawable/washroomicon"
+            android:title="Wash Room" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/door"
+                android:icon="@drawable/ic_door"
+                android:title="Door Open" />
+            <item
+                android:id="@+id/aboutUs"
+                android:icon="@drawable/aboutusicon"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
